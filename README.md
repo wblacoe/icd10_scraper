@@ -1,1 +1,1 @@
-# icd10_scraper
+This java program scrapes the content of the International Statistical Classification of Diseases and Related Health Problems (ICD) version 10 from [this website ](http://www.icd-code.de/icd/code/ICD-10-GM.html) and saves it in an XML file.
