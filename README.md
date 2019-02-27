@@ -6,14 +6,14 @@ Run the program by downloading
 (and maintaining that relative folder structure)
 
 ...and executing from the shell
-```java -jar icd10.jar```
+`java -jar icd10.jar`
 
 Possible arguments which you can append to this command are
-```-o [output folder]```  to choose an output folder. By default the program will output to ```./icd10``` and create the folder if necessary.
-```-d```  to run only a demo version of the program. That is, each XML node gets at most 3 children.
-```-q```  for quiet mode
+`-o [output folder]`  to choose an output folder. By default the program will output to `./icd10` and create the folder if necessary.
+`-d`  to run only a demo version of the program. That is, each XML node gets at most 3 children.
+`-q`  for quiet mode
 
-The program will then download the required webpages from http://www.icd-code.de/icd/code/....html and save them to ```./[output folder]/html```
+The program will then download the required webpages from the website and save them to `./[output folder]/html`
 When it finished the tree will be printed in the shell:
 
 ```
@@ -51,7 +51,7 @@ When it finished the tree will be printed in the shell:
 (...)
 ```
 
-... and the XML document will be written to ```./[output folder]/icd10.xml```:
+... and the XML document will be written to `./[output folder]/icd10.xml`:
 
 ```
 <node>
